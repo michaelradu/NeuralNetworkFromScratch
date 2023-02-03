@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "neuralnetworkfromscratch"
+version = "0.1.0"
+description = "Minimal implementation of a feedforward Neural Network (Multi-layer perceptron)."
+authors = ["Mihai Alexandru Radu <miihairadu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.6.3"
+numpy = "^1.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
